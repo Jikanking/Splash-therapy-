@@ -1,0 +1,92 @@
+/* Main CSS styles with design for the "Book Now" button */
+
+/* Add your colorful, futuristic, and animated CSS styles here */
+
+/* Navigation bar styling */
+nav {
+    background: linear-gradient(45deg, #ff0099, #493240, #8360c3);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff0099;
+}
+
+/* "Book Now" button styling */
+a.book-now-button {
+    background-color: #ff0099;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+a.book-now-button:hover {
+    background-color: #c20063;
+}
+
+/* Rest of your existing styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #ff0099, #493240, #8360c3);
+    color: #fff;
+    animation: gradientAnimation 15s infinite linear;
+}
+
+/* Add other CSS styles for your existing content */
+
+/* Animation for existing content */
+section {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #333;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.05);
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1.05);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+/* Add other styles for your existing content */
